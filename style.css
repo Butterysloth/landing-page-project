@@ -15,5 +15,29 @@ body {
 .header-top {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-left: 155px;
+    padding-right: 150px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+}
+
+ .img1 {
+    width: 300px;
+    height: auto
+ }
+
+ button {
+    width: 75px;
+ }
